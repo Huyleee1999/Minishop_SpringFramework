@@ -28,7 +28,7 @@ public class SanPhamDAO implements SanPhamImp{
 		Transaction tr = session.beginTransaction();
 		
 		List<SanPham> listSanPhams = new ArrayList<>();
-		if(spbatdau < 0) {
+		if(spbatdau <= 0) {
 			String hql = "FROM SANPHAM";
 			listSanPhams = (List<SanPham>) session.createQuery(hql).getResultList();
 		} else {

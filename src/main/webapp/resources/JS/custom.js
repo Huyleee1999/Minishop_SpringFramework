@@ -34,8 +34,15 @@ $(document).ready(function() {
 		$(this).addClass("actived");
 		$("#dangky").removeClass("actived");
 		$(".container-login-form").show();
-		$(".container-register-form").css("display", "none");
+		$(".container-register-form").hide();
 	});
+	
+	$("#dangky").click(function(){
+		$(this).addClass("actived");
+		$("#dangnhap").removeClass("actived");
+		$(".container-login-form").hide();
+		$(".container-register-form").show();
+	})
 	
 	
 	$(".btn-giohang").click(function(){

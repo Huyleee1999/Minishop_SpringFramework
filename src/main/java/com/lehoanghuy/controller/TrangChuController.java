@@ -40,8 +40,7 @@ public class TrangChuController{
 		}
 		System.out.println(httpSession.getAttribute("matkhau"));
 		
-		List<DanhMucSanPham> danhMucSanPham = danhMucService.LayDanhMuc(); 
-		
+		List<DanhMucSanPham> danhMucSanPham = danhMucService.LayDanhMuc(); 	
 		List<SanPham> listSanPham = sanPhamService.layDanhSachSanPhamLimit(0);
 		modelMap.addAttribute("listsanpham", listSanPham);
 		modelMap.addAttribute("danhmuc", danhMucSanPham);

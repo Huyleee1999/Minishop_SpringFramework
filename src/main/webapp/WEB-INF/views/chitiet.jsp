@@ -23,7 +23,7 @@
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-center navbar-nav me-auto mb-2 mb-lg-0">
 						<li class="nav-item"><a class="nav-link active"
-							aria-current="page" href="#">HOME</a></li>
+							aria-current="page" href='<c:url value="/" />'>TRANG CHỦ</a></li>
 						<li class="nav-item dropdown"><a
 							class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
 							role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -35,16 +35,16 @@
 							</c:forEach>									
 							</ul></li>
 						<li class="nav-item"><a class="nav-link active"
-							aria-current="page" href="#">SERVICE</a></li>
+							aria-current="page" href='<c:url value="/" />'>DỊCH VỤ</a></li>
 						<li class="nav-item"><a class="nav-link active"
-							aria-current="page" href="#">CONTACT</a></li>
+							aria-current="page" href='<c:url value="/" />'>LIÊN HỆ</a></li>
 					</ul>
 					
 					<ul class="nav navbar-nav navbar-right">
-						<li class="login-header-text nav-item"><a href="dangnhap/">LOGIN ${chucaidau}</a></li>
-						<li class="login-header-text nav-item"><a href="#">REGISTER</a></li>
+						<li class="login-header-text nav-item"><a href='<c:url value="/dangnhap/" />'>ĐĂNG NHẬP ${chucaidau}</a></li>
+						<li class="login-header-text nav-item"><a href='<c:url value="/dangnhap/" />'>ĐĂNG KÝ</a></li>
 						
-						<li id="giohang"><a href="#"><img src="<c:url value="/resources/Image/cart.png" />" />
+						<li id="giohang"><a href='<c:url value="/giohang/" />'><img src="<c:url value="/resources/Image/cart.png" />" />
 							<c:if test="${soluongsanphamgiohang > 0}">
 								<div class="circle-giohang"><span>${soluongsanphamgiohang}</span></div>
 							</c:if>
@@ -67,7 +67,7 @@
 				<h3 style="margin-bottom: 20px">DANH MỤC</h3>
 				<ul class="mymenu">
 					<c:forEach var="danhmucvalue" items="${danhmuc}">
-						<li><a href="#">${danhmucvalue.getTendanhmuc()}</a></li>
+						<li><a class="danhmuc-chitiet" style="color:black" href="#">${danhmucvalue.getTendanhmuc()}</a></li>
 					</c:forEach>	
 				</ul>
 			</div>

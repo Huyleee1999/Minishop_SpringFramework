@@ -23,7 +23,7 @@
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-center navbar-nav me-auto mb-2 mb-lg-0">
 						<li class="nav-item"><a class="nav-link active"
-							aria-current="page" href="#">TRANG CHỦ</a></li>
+							aria-current="page" href='<c:url value="/" />'>TRANG CHỦ</a></li>
 						<li class="nav-item dropdown"><a
 							class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
 							role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -35,9 +35,9 @@
 							</c:forEach>									
 							</ul></li>
 						<li class="nav-item"><a class="nav-link active"
-							aria-current="page" href="#">DỊCH VỤ</a></li>
+							aria-current="page" href='<c:url value="/" />'>DỊCH VỤ</a></li>
 						<li class="nav-item"><a class="nav-link active"
-							aria-current="page" href="#">LIÊN HỆ</a></li>
+							aria-current="page" href='<c:url value="/" />'>LIÊN HỆ</a></li>
 					</ul>
 					
 					<ul class="nav navbar-nav navbar-right">

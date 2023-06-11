@@ -59,9 +59,9 @@
 		</nav>
 
 		<div class="event-header container wow bounceIn">
-			<span>FROM 28/4 TO 28/5</span> <br /> 
-			<span style="font-size: 50px">BUY 1 GET 1 FREE</span> <br />
-			<button>WATCH NOW</button>
+			<span>TỪ 28/4 ĐẾN 28/5</span> <br /> 
+			<span style="font-size: 50px">MUA 1 TẶNG 1</span> <br />
+			<button>XEM NGAY</button>
 			<br />
 		</div>
 	</div>

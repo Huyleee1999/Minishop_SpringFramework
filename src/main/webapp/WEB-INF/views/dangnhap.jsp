@@ -38,7 +38,7 @@
 
 			<div id="container-login-right">
 				<div id="header-top-right" class="header-login">
-					<span class="actived" id="dangnhap">Log in</span> / <span id="dangky">Register</span>
+					<span class="actived" id="dangnhap">Đăng nhập</span> / <span id="dangky">Đăng ký</span>
 				</div>
 				
 				<div id="container-center-login-right">

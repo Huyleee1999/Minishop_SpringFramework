@@ -284,6 +284,10 @@ a {
 	font-size: 15px;
 }
 
+.danhmuc-chitiet:hover {
+	opacity: 0.8;
+}
+
 .circle-avatar{
 	display: block;
     width: 30px;

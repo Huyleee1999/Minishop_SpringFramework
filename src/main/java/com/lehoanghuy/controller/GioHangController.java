@@ -43,7 +43,7 @@ public class GioHangController {
 		if(null != httpSession.getAttribute("giohang")) {
 			List<GioHang> gioHangs = (List<GioHang>) httpSession.getAttribute("giohang");			
 			modelMap.addAttribute("soluongsanphamgiohang", gioHangs.size());
-			modelMap.addAttribute("giohangs", gioHangs);
+			modelMap.addAttribute("giohangs", gioHangs);		
 		}
 		
 		List<DanhMucSanPham> danhMucSanPham = danhMucService.LayDanhMuc(); 
