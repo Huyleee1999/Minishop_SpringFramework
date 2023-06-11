@@ -1,0 +1,444 @@
+@charset "UTF-8";
+
+html, body {
+	width: 100%;
+	height: 100%;
+	font-family: Roboto;
+	font-size: 14px;
+}
+
+ul {
+	list-style: none;
+}
+
+#body-login {
+	background-color: #00909C;
+}
+
+/* START CSS ĐĂNG NHẬP*/
+
+.paging-item:hover {
+	background: #333;
+}
+    
+.danhmucitem {
+	margin-left: 10px;
+    line-height: 2;
+}
+
+.danhmucitemsanpham:hover {
+	background-color: rgb(79, 91, 82);
+	cursor: pointer;
+
+}
+
+.nav-item {
+	font-size: 15px;
+}
+
+#body-flex-login {
+	display: flex;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+#container-login {
+	display: flex;
+	width: 820px;
+	height: 610px;
+	background-color: white;
+}
+
+#container-login-left {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 400px;
+	height: 610px;
+	background-image: url("../Image/shopping.jpg");
+	background-size: 411px, 400px;
+	padding: 0 16px;
+}
+
+#container-login-right {
+	padding: 0 24px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	flex: 1;
+}
+
+#header-top-left {
+	text-align: center;
+	color: black;
+}
+
+.header-login {
+	margin-top: 32px;
+}
+
+#text-logo {
+	font-size: 48px;
+}
+
+#hint-text-logo {
+	font-size: 12px;
+	opacity: 0.7;
+}
+
+#header-bottom-left {
+	margin-bottom: 64px;
+}
+
+#header-bottom-left span {
+	margin-left: 8px;
+	color: black;
+}
+
+#header-top-right {
+	font-size: 20px;
+	color: #B7B7B7;
+}
+
+.actived {
+	color: #DA7C79;
+}
+
+#container-social-login {
+	align-self: flex-end;
+	margin-bottom: 16px;
+}
+
+#container-center-login-right input[type=text] {
+	margin-top: 8px;
+	font-size: 14px;
+}
+
+#container-center-login-right input[type=submit] {
+	margin-top: 24px;
+	color: white;
+	font-size: 14px;
+}
+
+.material-textinput {
+	height: 30px;
+	border: 0;
+	background-color: #D8D8D8;
+	width: 100%;
+}
+
+.material-primary-button {
+	height: 30px;
+	border: 0;
+	background-color: #00909C;
+	width: 100%;
+	box-shadow: 0px 2px 4px 0px #000;
+}
+
+.input-icon-email {
+	background: url(../Image/email.png) no-repeat scroll 16px 4px;
+	height: 30px;
+	border: 0;
+	background-color: #D8D8D8;
+	width: 100%;
+	padding-left: 50px;
+}
+
+.input-icon-password {
+	background: url(../Image/lock.png) no-repeat scroll 16px 4px;
+	height: 30px;
+	border: 0;
+	background-color: #D8D8D8;
+	width: 100%;
+	padding-left: 50px;
+}
+
+#icon-facebook {
+	margin-right: 5px;
+}
+
+.activedLink {
+	background: red;
+}
+
+.container-register-form {
+	display: none;
+}
+
+#dangky:hover, #dangnhap:hover {
+	opacity: 0.7;
+	cursor: pointer;
+}
+/* END CSS ĐĂNG NHẬP*/
+
+/* START CSS TRANG CHỦ*/
+#header {
+	background: linear-gradient(rgba(0, 0, 0, 0.42), rgba(0, 0, 0, 0.42)),
+		url(../Image/personshopping.jpg) no-repeat center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	height: 662px;
+}
+
+.none_nav {
+	background: none !important;
+	border: none;
+}
+
+.navbar-center {
+	margin-left: 35% !important;
+}
+
+.navbar-nav a {
+	color: white !important;
+}
+
+.icon-cart {
+	color: white;
+}
+
+a {
+	text-decoration: none;
+}
+
+.navbar-right {
+	display: flex;
+	align-items: center;
+}
+
+.login-header-text {
+	margin-right: 15px;
+}
+
+.active a {
+	color: #E0EF5E !important;
+}
+
+.dropdown-menu {
+	background-color: rgba(0, 0, 0, 0.60);
+}
+
+.event-header {
+	text-align: center;
+	margin-top: 216px;
+}
+
+.event-header>span {
+	color: white;
+}
+
+.event-header>button {
+	color: white;
+	background-color: #a9a94b;
+	border: #494934;
+	border-radius: 3px;
+}
+
+.icon {
+	width: 48px;
+	height: 48px;
+}
+
+#info {
+	margin-top: 48px;
+	text-align: center;
+}
+
+#info>span {
+	margin-top: 16px;
+}
+
+#title-product {
+	margin-top: 100px;
+	text-align: center;
+	font-size: 32px;
+	font-weight: 500;
+}
+
+.product {
+	margin-top: 40px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin-left: 16px;
+	margin-right: 16px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+	padding-bottom: 16px
+}
+
+.product img {
+	height: 256px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.price {
+	font-size: 22px;
+	font-weight: 600;
+}
+
+.tee-shirt {
+	font-size: 15px;
+}
+
+.circle-avatar{
+	display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: chocolate;
+    text-align: center;
+    padding: 4px !important;
+    margin-top: 10px;
+    margin-bottom: 14px;
+}
+
+a.circle-avatar:hover{
+	display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: chocolate;
+    text-align: center;
+    padding: 4px !important;
+    margin-top: 10px;
+    margin-bottom: 14px;
+}
+
+#footer {
+	margin-top: 42px;
+	color: white;
+	background-color: black;
+	padding: 38px;
+	background: linear-gradient(rgba(0, 0, 0, 0.42), rgba(0, 0, 0, 0.42)),
+		url(../Image/backgroundfooter2.jpg) no-repeat center fixed;
+}
+
+#footer p {
+	text-align: center;
+}
+
+.title-footer {
+	font-size: 32px;
+}
+
+#footer textarea {
+	border: 0;
+	background-color: #D8D8D8;
+	width: 100%;
+}
+
+
+/* START MENU */
+
+/*.mymenu li > ul{
+	display: none;
+}
+
+.mymenu li:hover > ul {
+	display: block;
+	cursor: pointer;
+} */
+
+.mymenu {
+	padding: 0;
+	margin: 0;
+}
+
+.mymenu li {
+	font-size: 15px;
+	font-weight: 500;
+	padding: 4px 0;
+	
+}
+
+/* END MENU */
+
+
+/* START CHITIET */
+#header-chitiet {
+	background-color: #ccc;
+	box-shadow: 0px 2px 5px #888888;
+}
+
+
+.img-chitiet {
+	width: 100%;
+}
+
+.circle-giohang {
+	position: absolute;
+    text-align: center;
+    width: 18px;
+    height: 18px;
+    font-size: 11px;
+    border-radius: 40px;
+    background: #198754;
+    line-height: 18px;
+    margin-top: -35px;
+    margin-left: 15px;
+    border: 1px solid black;
+}
+/* END CHITIET */
+
+
+/* THEM SAN PHAM */
+#chitietsanpham {
+	display: none;
+}
+
+.btn-chitiet {
+	display: block;
+	margin-right: 0;
+	margin-left: auto;
+}
+
+.hidden {
+	display: none;
+}
+/* END THEM SAN PHAM */
+
+
+@media ( max-width : 575px) {
+	.navbar-center {
+		margin-left: 0 !important;
+	}
+	.navbar-right {
+		display: contents;
+	}
+	.login-header-text {
+		margin-bottom: 10px;
+	}
+}
+
+@media ( min-width : 576px) and (max-width: 767px) {
+	.navbar-center {
+		margin-left: 0 !important;
+	}
+	.navbar-right {
+		display: contents;
+	}
+	.login-header-text {
+		margin-bottom: 10px;
+	}
+}
+
+@media ( min-width : 768px) and (max-width: 991px) {
+	.navbar-center {
+		margin-left: 0 !important;
+	}
+	.navbar-right {
+		display: contents;
+	}
+	.login-header-text {
+		margin-bottom: 10px;
+	}
+}
+
+@media ( min-width : 992px) and (max-width: 1199px) {
+}
+
+/* END CSS TRANG CHỦ*/
