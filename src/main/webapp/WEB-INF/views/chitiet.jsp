@@ -67,7 +67,7 @@
 				<h3 style="margin-bottom: 20px">DANH MỤC</h3>
 				<ul class="mymenu">
 					<c:forEach var="danhmucvalue" items="${danhmuc}">
-						<li><a class="danhmuc-chitiet" style="color:black" href="#">${danhmucvalue.getTendanhmuc()}</a></li>
+						<li><a class="danhmuc-chitiet" style="color:black" href='<c:url value="/sanpham/${danhmucvalue.getMadanhmuc()}/ ${danhmucvalue.getTendanhmuc()}"/>'>${danhmucvalue.getTendanhmuc()}</a></li>
 					</c:forEach>	
 				</ul>
 			</div>

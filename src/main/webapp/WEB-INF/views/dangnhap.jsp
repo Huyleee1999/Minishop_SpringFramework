@@ -62,8 +62,8 @@
 				</div>
 				
 				<div id="container-social-login">
-						<img id="icon-facebook" alt="icon_facebook" src='<c:url value="/resources/Image/facebook.png" />' />
-						<img alt="icon_google" src='<c:url value="/resources/Image/search.png" />' />
+						<a href="https://www.facebook.com/huyhoangle3101/"><img id="icon-facebook" alt="icon_facebook" src='<c:url value="/resources/Image/facebook.png" />' /></a>
+						<a href="https://www.facebook.com/huyhoangle3101/"><img alt="icon_google" src='<c:url value="/resources/Image/search.png" />' /></a>
 				</div>
 
 			</div>

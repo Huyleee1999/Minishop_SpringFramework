@@ -44,7 +44,7 @@
 						<li class="login-header-text nav-item"><a href="dangnhap/">ĐĂNG NHẬP ${chucaidau}</a></li>
 						<li class="login-header-text nav-item"><a href="#">ĐĂNG KÝ</a></li>
 						
-						<li id="giohang"><a href="#"><img src="<c:url value="/resources/Image/cart.png" />" />
+						<li id="giohang"><a href='<c:url value="/giohang/" />'><img src="<c:url value="/resources/Image/cart.png" />" />
 							<c:if test="${soluongsanphamgiohang > 0}">
 								<div class="circle-giohang"><span>${soluongsanphamgiohang}</span></div>
 							</c:if>
@@ -67,7 +67,7 @@
 				<h3 style="margin-bottom: 20px">DANH MỤC</h3>
 				<ul class="mymenu">
 					<c:forEach var="danhmucvalue" items="${danhmuc}">
-						<li><a href="#">${danhmucvalue.getTendanhmuc()}</a></li>
+						<li><a class="danhmuc-chitiet" style="color: black" href='<c:url value="/sanpham/${danhmucvalue.getMadanhmuc()}/ ${danhmucvalue.getTendanhmuc()}"/>'>${danhmucvalue.getTendanhmuc()}</a></li>
 					</c:forEach>	
 				</ul>
 			</div>
