@@ -23,7 +23,7 @@
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-center navbar-nav me-auto mb-2 mb-lg-0">
 						<li class="nav-item"><a class="nav-link active"
-							aria-current="page" href='<c:url value="/dangnhap/" />'>TRANG CHỦ</a></li>
+							aria-current="page" href='<c:url value="/" />'>TRANG CHỦ</a></li>
 						<li class="nav-item dropdown"><a
 							class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
 							role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -35,9 +35,9 @@
 							</c:forEach>									
 							</ul></li>
 						<li class="nav-item"><a class="nav-link active"
-							aria-current="page" href='<c:url value="/dangnhap/" />'>DỊCH VỤ</a></li>
+							aria-current="page" href='<c:url value="/" />'>DỊCH VỤ</a></li>
 						<li class="nav-item"><a class="nav-link active"
-							aria-current="page" href='<c:url value="/dangnhap/" />'> LIÊN HỆ</a></li>
+							aria-current="page" href='<c:url value="/" />'> LIÊN HỆ</a></li>
 					</ul>
 					
 					<ul class="nav navbar-nav navbar-right">
@@ -77,7 +77,7 @@
 						<h3>${tendanhmuc}</h3>
 						<c:forEach var="sanpham" items="${listSanPham}">
 							<div class="col-md-4 col-sm-6">
-								<a href='<c:url value="/chitiet/${sanpham.getMasanpham()}" />'>
+								<a style="text-align: center" href='<c:url value="/chitiet/${sanpham.getMasanpham()}" />'>
 									<div class="product wow pulse">
 										<img alt="hinh" src='<c:url value="/resources/Image/HinhSanPhamRoutine/${sanpham.getHinhsanpham()}"/>' /> <br>	
 										<span class="tee-shirt">${sanpham.getTensanpham()}</span> <br>
