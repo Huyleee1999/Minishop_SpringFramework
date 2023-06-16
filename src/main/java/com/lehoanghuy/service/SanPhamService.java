@@ -36,8 +36,7 @@ public class SanPhamService implements SanPhamImp{
 
 	@Override
 	public Boolean ThemSanPham(SanPham sanPham) {
-		return sanPhamDAO.ThemSanPham(sanPham);
-		
+		return sanPhamDAO.ThemSanPham(sanPham);		
 	}
 
 	@Override

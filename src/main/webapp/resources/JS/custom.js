@@ -6,6 +6,11 @@ $(document).ready(function() {
 		alert(chuoi);
 	});
 	
+	$("#btn-watchout").click(function (){
+       $("html, body").animate({
+		   scrollTop: $("#title-product").offset().top});
+    });
+	
 	$("#btnDangNhap").click(function() {
 		var ten = $("#email").val();
 		var password = $("#matkhau").val();
@@ -83,12 +88,12 @@ $(document).ready(function() {
 	function GanTongTienGioHang(isEventChange) {
 		var tongtiensp = 0
 		$(".giatien").each(function() {
-			var giatien = $(this).text();
+			var giatien = $(this).attr("data-value");
 			var soluong = $(this).closest("tr").find(".soluong-giohang").val();
 			
 			var tongtien = parseInt(giatien) * soluong;
 			
-			var format = parseFloat(tongtien).toFixed(3).replace(/(\d)(?=(\d{3})+\.)/g, "$1.").toString();
+			var format = parseFloat(tongtien).toFixed(3).replace(/(\d)(?=(\d{3})+\.)/g, "$1.");
 			
 			if(!isEventChange) {
 				$(this).html(format);

@@ -77,7 +77,7 @@
 			 		
 			 			<tbody>
 			 				<c:forEach var="value" items="${giohangs}">
-								<tr data-machitiet="${value.getMachitiet() }">
+								<tr data-machitiet="${value.getMachitiet()}">
 									<td class="tensp" data-masp="${value.getMasp()}">${value.getTensp()}</td>									
 									<td class="mau" data-mamau="${value.getMamau()}">${value.getTenmau()}</td>
 									<td class="size" data-masize="${value.getMasize()}">${value.getTensize()}</td>

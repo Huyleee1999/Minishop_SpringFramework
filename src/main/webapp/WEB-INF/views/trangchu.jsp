@@ -61,7 +61,7 @@
 		<div class="event-header container wow bounceIn">
 			<span>TỪ 28/4 ĐẾN 28/5</span> <br /> 
 			<span style="font-size: 50px">MUA 1 TẶNG 1</span> <br />
-			<button>XEM NGAY</button>
+			<button id="btn-watchout">XEM NGAY</button>
 			<br />
 		</div>
 	</div>
